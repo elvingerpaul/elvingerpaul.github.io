@@ -6,15 +6,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a research assistant at [ETH Zurich](https://ethz.ch/en.html)'s [Efficient Architectures and Systems Lab](https://systems.ethz.ch/research/easl.html), working with [Foteini Strati](https://fotstrt.github.io) and supervised by [Prof. Ana Klimovic](https://anakli.inf.ethz.ch). My passion lies at the intersection of Systems for Machine Learning and Cloud Computing. At ETH Zurich, my research focuses on addressing GPU underutilization by spatially colocating multiple workloads on the same GPU. The main challenge? When workloads run concurrently, they can interfere with each other - particularly problematic for time-sensitive tasks like ML inference. I work on identifying and measuring these interference sources, aiming to create smarter scheduling systems that can both guarantee performance and maximize GPU usage.
+I'm a research assistant at [ETH Zurich](https://ethz.ch/en.html)'s [Efficient Architectures and Systems Lab](https://systems.ethz.ch/research/easl.html), working with [Foteini Strati](https://fotstrt.github.io) and supervised by [Prof. Ana Klimovic](https://anakli.inf.ethz.ch). My passion lies at the intersection of Systems for Machine Learning and Cloud Computing. My current research focuses on addressing GPU underutilization by spatially colocating multiple workloads on the same GPU. The main challenge? When workloads run concurrently, they can interfere with each other which is particularly problematic for time-sensitive tasks like ML inference. I work on identifying and measuring these interference sources, aiming to create smarter scheduling systems that can both guarantee performance and maximize GPU usage.
 
-Recently, I've become increasingly interested in making data centers more environmentally sustainable. I would love to dive depper into exploring solutions that address the growing power consumption challenges across both software and hardware layers of the computing stack.
+Recently, I've also become increasingly interested in making data centers more power efficient and sustainable exploring ways to adress their growing power consumption both at hardware and software layer.
 
-I completed both my Bachelor's and Master's in Computer Science at ETH Zurich, and I'm currently **looking for full-time opportunities starting May 2025** in either industry or research roles.
+I completed both my BSc and MSc in Computer Science at ETH Zurich, and I'm currently **looking for full-time opportunities starting May 2025** in either industry or research roles.
 
-When I'm not diving into tech challenges, you'll usually find me pushing my limits outdoors! Winter is for skiing adventures, while in summer I like to train for marathons and triathlons. (I'm quite a sports enthusiast!)
+Outside of work, you'll ususally find me doing lots of sports! Winter is dedicated to skiing, while in summer I enjoy doing lots of endurance (marathons and triathlons).
 
-Feel free to reach out if you'd like to discuss any of these topics or just have a chat. I'm always excited to connect with fellow tech and sports enthusiasts!
+Feel free to reach out if you're interseted in any of the above. I'm always excited to connect with tech and sports enthusiasts!
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
