@@ -6,5 +6,5 @@ permalink: /publication/2025-gpu-utilization
 link: https://arxiv.org/pdf/2501.16909
 venue: 'arXiv'
 paperurl: '/files/2025-gpu-utilization.pdf'
-citation: '<b>Paul Elvinger</b>, Foteini Strati, Natalie Enright Jerger, Ana Klimovic<br>arXiv, 2025.'
+citation: '<b>Paul Elvinger</b>, Foteini Strati, Natalie Enright Jerger, Ana Klimovic<br>arXiv preprint arXiv:2501.16909, 2025.'
 ---
