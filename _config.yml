@@ -24,11 +24,12 @@ author:
   avatar           : "profile.jpg"
   name             : "Paul Elvinger"
   pronouns         : # example: "she/her"  
-  bio              : "ML Engineer @ Wayve | ETH Zurich"
-  location         : # "Zurich, Switzerland"
-  employer         : "Wayve, London"
+  bio              : "ML Engineer @ Wayve"
+  location         : "London, United Kingdom"
+  # employer         : "Wayve, London"
   uri              : # URL
   email            : "elvingerpa@gmail.com" 
+  cv               : "/files/cv-03-25-paul-elvinger.pdf" # Link to your CV in PDF format 
 
   # Academic websites
   academia         : # URL
