@@ -26,14 +26,32 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <span class="archive__citation" itemprop="citation">
+      <strong class="citation__title">{{ title }}</strong><br />
+      {% if post.authors %}<span class="citation__authors">{{ post.authors }}</span><br />{% endif %}
+      {% if post.venue %}<em class="citation__venue">{{ post.venue }}</em><br />{% endif %}
+      <span class="citation__links">
+        {% assign links = "" %}
+        {% if post.paperurl %}{% assign links = links | append: '<a href="' | append: post.paperurl | append: '">PDF</a>' %}{% endif %}
+        {% if post.codeurl %}
+          {% if links != "" %}{% assign links = links | append: ' | ' %}{% endif %}
+          {% assign links = links | append: '<a href="' | append: post.codeurl | append: '">Code</a>' %}
+        {% endif %}
+        {% if post.slidesurl %}
+          {% if links != "" %}{% assign links = links | append: ' | ' %}{% endif %}
+          {% assign links = links | append: '<a href="' | append: post.slidesurl | append: '">Slides</a>' %}
+        {% endif %}
+        {{ links | raw }}
+      </span>
+    </span>
+
+    <!-- <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-  
 
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -65,7 +83,7 @@
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% endif %}
+    {% endif %} -->
 
   </article>
 </div>
