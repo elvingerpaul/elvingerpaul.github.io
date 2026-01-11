@@ -6,17 +6,27 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a research assistant at [ETH Zurich](https://ethz.ch/en.html)'s [Efficient Architectures and Systems Lab](https://systems.ethz.ch/research/easl.html), working with [Foteini Strati](https://fotstrt.github.io) and supervised by [Prof. Ana Klimovic](https://anakli.inf.ethz.ch). My passion lies at the intersection of Systems for Machine Learning and Cloud Computing. My current research focuses on addressing GPU underutilization by spatially colocating multiple workloads on the same GPU. The main challenge? When workloads run concurrently, they can interfere with each other which is particularly problematic for time-sensitive tasks like ML inference. I work on identifying and measuring these interference sources, aiming to create smarter scheduling systems that can both guarantee performance and maximize GPU usage.
+Hi there! I'm a Machine Learning Engineer at [Wayve](https://wayve.ai) in London, where I focus on improving training efficiency. Wayve is an autonomous driving technology company developing AI software for self-driving vehicles.
 
-Recently, I've also become increasingly interested in making data centers more power efficient and sustainable exploring ways to adress their growing power consumption both at hardware and software layer.
+Before joining Wayve, I completed my Bachelor's and Master's degrees in Computer Science at [ETH Zurich](https://ethz.ch/en.html). I also worked as a Research Assistant at ETH's [Efficient Architectures and Systems Lab](https://systems.ethz.ch/research/easl.html), collaborating with [Foteini Strati](https://fotstrt.github.io) under the supervision of [Prof. Ana Klimovic](https://anakli.inf.ethz.ch). My research focused on addressing GPU underutilization by spatially colocating multiple workloads on the same GPU and predicting the resulting interference patterns. <!-- The main challenge? When workloads run concurrently, they can interfere with each other which is particularly problematic for time-sensitive tasks like ML inference. My work consisted in predicting these interference patterns upfront, aiming to create smarter scheduling systems that can both guarantee performance and maximize GPU usage. -->
 
-Outside of work, you'll ususally find me doing lots of sports! Winter is dedicated to skiing, while in summer I enjoy doing lots of endurance (marathons and triathlons).
+Prior to my Master's, I worked as a Data Engineer at [Archlet](https://archlet.io), a Zurich-based startup building an AI platform to support faster and better sourcing decisions. I also completed an internship at [Oracle Labs](https://labs.oracle.com/pls/apex/r/labs/labs/intro) in Zurich, where I focused on application security.
 
-Don't be shy to just reach out and chat!
+Outside of work, you’ll usually find me doing sports. Winters are dedicated to skiing, while in summer I’ve developed a new passion for endurance sports (marathons and triathlons).
+
+You can find a copy of my CV [here](/files/cv-03-25-paul-elvinger.pdf).
 
 ---
 # Publications {#publications}
 {% include publications-section.html %}
+
+---
+# News
+- <i>November 2025</i>: Presented our work on [GPU interference](/files/2025-gpu-interf-socc.pdf) at SoCC'25. ([Slides](/files/socc25-presentation-final-version.pdf))
+- <i>August 2025</i>: Started as a Machine Learning Engineer at [Wayve](https://wayve.ai) in London.
+- <i>October 2024</i>: Started as a Research Assistant in the [EASL](https://systems.ethz.ch/research/easl.html).
+- <i>September 2024</i>: Graduated from ETH Zurich in Computer Science.
+
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
