@@ -14,7 +14,7 @@ Prior to my Master's, I worked as a Data Engineer at [Archlet](https://archlet.i
 
 Outside of work, you’ll usually find me doing sports. Winters are dedicated to skiing, while in summer I’ve developed a new passion for endurance sports (marathons and triathlons).
 
-You can find a copy of my CV [here](/files/cv-03-25-paul-elvinger.pdf).
+You can find a copy of my CV [here](/files/cv-01-26-paul-elvinger-eu.pdf).
 
 ---
 # Publications {#publications}
